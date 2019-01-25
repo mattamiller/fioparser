@@ -18,7 +18,7 @@ for filename in os.listdir(fio_results_dir):
         ninetyninth_percentile = str((rdata['jobs'][0]['read']['clat_ns']['percentile']['99.000000'])*.000001)
         bw_mean = str((rdata['jobs'][0]['read']['bw_mean'])*.0001)
 
-        # Write variables to csv in the following format:
+        # Write variables to csv
         output.write("" + device_name+","
                      + filename+","
                      + ninetyfifth_percentile+","
