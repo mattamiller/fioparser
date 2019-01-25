@@ -2,7 +2,7 @@
 import os
 import json
 
-# set variables manually
+# set variables
 fio_results_dir = '/Users/matthew.miller/Desktop/fio/intel_ssd/'
 device_name = "SampleIntelSSD"
 output = open(device_name+"_output.txt", "w+")
