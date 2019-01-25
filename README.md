@@ -1,6 +1,6 @@
 Python parser for FIO results
 
-Set 'fio_results_variable' to the local directory with the FIO results.  This should be set at the directory level named after the storage device tested.  For example, if testing an Intel SSD, your folder level would be something like this "~/intel_ssd/"
+Set 'fio_results_dir' to the local directory with the FIO results.  This should be set at the directory level named after the storage device tested.  For example, if testing an Intel SSD, your folder level would be something like this "~/intel_ssd/"
 
 Set 'output' to local file for results csv
 
